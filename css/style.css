@@ -184,5 +184,10 @@ li img {
 .fa:hover {
   opacity: 0.4;
 }
-
-/* Set a specific color for each brand */
+ @media only screen and(max-width: 550px){
+   .container{
+     grid-template-columns: 1fr;
+     grid-template-rows: 1.2fr 1.2fr;
+     
+   }
+ }
